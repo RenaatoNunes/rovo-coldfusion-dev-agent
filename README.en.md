@@ -29,13 +29,12 @@ This repository contains the **agent instructions** (system prompt) for a Rovo A
 
 ## 📁 Repository Structure
 
-rovo-coldfusion-dev-agent/
-├── README.md                ← Portuguese version (pt-BR)
-├── README.en.md             ← You are here
-├── AGENT.md                 ← Agent instructions (the main file — edit and contribute here)
-├── CONTRIBUTING.md          ← How to contribute
-└── LICENSE
-
+    rovo-coldfusion-dev-agent/
+    ├── README.md                ← Portuguese version (pt-BR)
+    ├── README.en.md             ← You are here
+    ├── AGENT.md                 ← Agent instructions (the main file — edit and contribute here)
+    ├── CONTRIBUTING.md          ← How to contribute
+    └── LICENSE
 
 ## 🔧 Setup
 
@@ -50,24 +49,22 @@ rovo-coldfusion-dev-agent/
 
 Mention the agent in Jira, Confluence, or Rovo Chat:
 
-@ColdFusion Dev Agent I'm getting a "variable undefined" error inside an arrayMap callback.
-Here's my code: [paste code]
-
+    @ColdFusion Dev Agent I'm getting a "variable undefined" error
+    inside an arrayMap callback. Here's my code: [paste code]
 
 The agent will classify the issue, diagnose, and provide a step-by-step fix.
 
 ## 💡 Example Prompts
 
-→ "Debug this ColdBox handler — it returns 500 on POST requests: [paste code]"
+    → "Debug this ColdBox handler — it returns 500 on POST requests: [paste code]"
 
-→ "Create a Dockerfile for a Lucee 6 app with CommandBox and Oracle JDBC"
+    → "Create a Dockerfile for a Lucee 6 app with CommandBox and Oracle JDBC"
 
-→ "Review this CFC for security issues: [paste code]"
+    → "Review this CFC for security issues: [paste code]"
 
-→ "My cfquery is slow against Oracle. Here's the SQL and explain plan: [paste]"
+    → "My cfquery is slow against Oracle. Here's the SQL and explain plan: [paste]"
 
-→ "Set up a docker-compose for local dev with ACF 2023 + MongoDB"
-
+    → "Set up a docker-compose for local dev with ACF 2023 + MongoDB"
 
 ## 🤝 Contributing
 
