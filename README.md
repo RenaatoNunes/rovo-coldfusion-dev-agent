@@ -1,5 +1,3 @@
-Português (pt-BR)
-
 # rovo-coldfusion-dev-agent
 
 > Um [Agente Rovo (Atlassian)](https://www.atlassian.com/rovo) personalizado que acelera o desenvolvimento, troubleshooting e modernização de aplicações ColdFusion (CFML) — diretamente do Jira, Confluence e outras ferramentas Atlassian.
@@ -31,12 +29,12 @@ Este repositório contém as **instruções do agente** (system prompt) para um 
 
 ## 📁 Estrutura do Repositório
 
-rovo-coldfusion-dev-agent/
-├── README.md                ← Você está aqui
-├── README.en.md             ← Versão em inglês
-├── AGENT.md                 ← Instruções do agente (arquivo principal — edite e contribua aqui)
-├── CONTRIBUTING.md          ← Como contribuir
-└── LICENSE
+    rovo-coldfusion-dev-agent/
+    ├── README.md                ← Você está aqui
+    ├── README.en.md             ← Versão em inglês
+    ├── AGENT.md                 ← Instruções do agente (arquivo principal — edite e contribua aqui)
+    ├── CONTRIBUTING.md          ← Como contribuir
+    └── LICENSE
 
 ## 🔧 Como Configurar
 
@@ -51,22 +49,22 @@ rovo-coldfusion-dev-agent/
 
 Mencione o agente no Jira, Confluence ou Rovo Chat:
 
-@ColdFusion Dev Agent Estou recebendo um erro "variable undefined" dentro de um callback arrayMap.
-Aqui está meu código: [cole o código]
+    @ColdFusion Dev Agent Estou recebendo um erro "variable undefined"
+    dentro de um callback arrayMap. Aqui está meu código: [cole o código]
 
 O agente vai classificar o problema, diagnosticar e fornecer uma correção passo a passo.
+
 ## 💡 Exemplos de Prompts
 
-→ "Debugue este handler ColdBox — retorna 500 em requisições POST: [cole o código]"
+    → "Debugue este handler ColdBox — retorna 500 em requisições POST: [cole o código]"
 
-→ "Crie um Dockerfile para uma app Lucee 6 com CommandBox e Oracle JDBC"
+    → "Crie um Dockerfile para uma app Lucee 6 com CommandBox e Oracle JDBC"
 
-→ "Revise este CFC quanto a problemas de segurança: [cole o código]"
+    → "Revise este CFC quanto a problemas de segurança: [cole o código]"
 
-→ "Meu cfquery está lento contra Oracle. Aqui está o SQL e o explain plan: [cole]"
+    → "Meu cfquery está lento contra Oracle. Aqui está o SQL e o explain plan: [cole]"
 
-→ "Monte um docker-compose para dev local com ACF 2023 + MongoDB"
-
+    → "Monte um docker-compose para dev local com ACF 2023 + MongoDB"
 
 ## 🤝 Como Contribuir
 
